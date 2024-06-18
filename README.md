@@ -1,6 +1,6 @@
 # Bangkit_Final_Capstone
 
-![Bangkit](img/bangkit-background.png)
+![Bangkit](Cloud Computing/img/bangkit-background.png)
 
 ## Overview
 
