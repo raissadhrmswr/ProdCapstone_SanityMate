@@ -1,0 +1,29 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.8.0",
+    "@hapi/hapi": "^21.3.9",
+    "@tensorflow/tfjs": "^4.20.0",
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.1",
+    "moment-timezone": "^0.5.45",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
