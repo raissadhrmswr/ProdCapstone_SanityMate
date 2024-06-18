@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingVertical="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:strokeColor="@color/black"
+    app:strokeWidth="2dp"
+    app:cardCornerRadius="30dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/pic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/black"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                tools:src="@tools:sample/avatars"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="@id/pic"
+            app:layout_constraintBottom_toBottomOf="@id/pic"
+            app:layout_constraintStart_toEndOf="@id/pic"
+            app:layout_constraintEnd_toEndOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="8"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Name : "/>
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="0dp"
+                    android:gravity="start"
+                    android:layout_height="wrap_content"
+                    android:maxLines="8"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    tools:text="Raihan"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="8"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Universitas : "/>
+
+                <TextView
+                    android:id="@+id/tv_univ"
+                    android:layout_width="0dp"
+                    android:gravity="start"
+                    android:layout_height="wrap_content"
+                    android:maxLines="8"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    tools:text="Raihan"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="8"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Learning Path : "/>
+
+                <TextView
+                    android:id="@+id/tv_learning_path"
+                    android:layout_width="0dp"
+                    android:gravity="start"
+                    android:layout_height="wrap_content"
+                    android:maxLines="8"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    tools:text="Raihan"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

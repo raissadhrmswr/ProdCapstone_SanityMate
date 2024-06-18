@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.GetStarted"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center"
+    android:background="@color/green">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/white"
+            android:src="@drawable/white"
+            android:scaleType="fitXY">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sliderDesc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/inter_semibold"
+            android:text="@string/screen2desc"
+            android:textColor="@color/grey"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/white"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/sliderImage"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/screen2"
+            android:scaleType="fitCenter">
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sliderTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/screen2"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/inter_bold"
+            android:textAlignment="viewStart">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</FrameLayout>

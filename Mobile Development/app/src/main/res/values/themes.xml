@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SanityMate" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary brand color. -->
+<!--        <item name="colorPrimary">@color/green</item>-->
+<!--        <item name="colorPrimaryVariant">@color/green</item>-->
+<!--        <item name="colorOnPrimary">@color/white</item>-->
+    </style>
+
+    <style name="Theme.SanityMate" parent="Base.Theme.SanityMate" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.SanityMate</item>
+
+    </style>
+
+</resources>

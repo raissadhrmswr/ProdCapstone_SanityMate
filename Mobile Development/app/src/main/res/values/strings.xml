@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SanityMate</string>
+    <string name="screen1">Feel Better, \nLive Better</string>
+    <string name="screen2">Mindfulness \nMade Simple</string>
+
+    <string name="screen1desc">Explore personalized resources to support your emotional well-being and manage stress. Discover articles and tips tailored to help you live a balanced and fulfilling life.</string>
+    <string name="screen2desc">Find easy-to-follow articles and tips to help you stay calm and centered. Embrace mindfulness with practical advice designed for your daily life.</string>
+
+    <string name="title">Welcome to \nSanityMate!</string>
+    <string name="desc">Your Companion for Stress-\nFree Living</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+
+    <string-array name="data_name">
+        <item>Faryal Hillan Almohafan</item>
+        <item>Muhammad Magistra Apta Paratama</item>
+        <item>Raissa Regita Dharmeswari</item>
+        <item>Muhammad Nadine Zuhdan Azra</item>
+        <item>Syaid Andhika</item>
+        <item>Endri Rizki Nugraha</item>
+        <item>Novia Natasya</item>
+    </string-array>
+
+    <string-array name="data_path">
+        <item>Machine Learning</item>
+        <item>Machine Learning</item>
+        <item>Machine Learning</item>
+        <item>Cloud Computing</item>
+        <item>Cloud Computing</item>
+        <item>Mobile Development</item>
+        <item>Mobile Development</item>
+    </string-array>
+
+    <string-array name="data_universitas">
+        <item>Institut Teknologi Bandung</item>
+        <item>Universitas Mataram</item>
+        <item>Universitas Katolik Parahyangan Learning</item>
+        <item>Universitas Telkom</item>
+        <item>Universitas Bina Sarana Informatika</item>
+        <item>Universitas Telkom</item>
+        <item>Universitas Telkom</item>
+    </string-array>
+
+
+    <string-array name="data_avatar">
+        <item>@drawable/faryal</item>
+        <item>@drawable/magistra</item>
+        <item>@drawable/raisa</item>
+        <item>@drawable/zuhdan</item>
+        <item>@drawable/pic_ava</item>
+        <item>@drawable/endri</item>
+        <item>@drawable/novi</item>
+    </string-array>
+</resources>

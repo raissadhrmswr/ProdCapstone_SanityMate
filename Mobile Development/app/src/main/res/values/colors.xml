@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lessWhite">#7EFFFFFF</color>
+    <color name="green">#6BB4A3</color>
+    <color name="grey">#DF676767</color>
+    <color name="darkerGrey">#AD6A6868</color>
+    <color name="yellow">#ffcb4c</color>
+    <color name="grayHint">#61646B</color>
+    <color name="red">#f55142</color>
+    <color name="graySwipe">#747474</color>
+    <color name="transparent">#00000000</color>
+</resources>

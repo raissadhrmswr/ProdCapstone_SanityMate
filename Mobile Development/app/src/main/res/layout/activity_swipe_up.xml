@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/logo">
+
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_swipe"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/pic_btn_swipe"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="14sp"
+            android:textColor="@color/graySwipe"
+            android:gravity="center_horizontal"
+            android:text="Tap to Start!"/>
+    </LinearLayout>
+
+</RelativeLayout>

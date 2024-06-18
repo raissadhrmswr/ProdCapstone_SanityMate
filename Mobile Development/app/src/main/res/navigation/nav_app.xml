@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_app"
+    app:startDestination="@id/chooseFragment">
+
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="com.novia.sanitymate.view.TeamFragment"
+        android:label="fragment_team"
+        tools:layout="@layout/fragment_team" />
+    <fragment
+        android:id="@+id/chooseFragment"
+        android:name="com.novia.sanitymate.view.ChooseFragment"
+        android:label="ChooseFragment" >
+        <action
+            android:id="@+id/action_chooseFragment_to_teamFragment"
+            app:destination="@id/teamFragment" />
+        <action
+            android:id="@+id/action_chooseFragment_to_formOneFragment"
+            app:destination="@id/formOneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/formOneFragment"
+        android:name="com.novia.sanitymate.view.form.FormOneFragment"
+        android:label="fragment_form_one"
+        tools:layout="@layout/fragment_form_one" >
+        <action
+            android:id="@+id/action_formOneFragment_to_formTwoFragment"
+            app:destination="@id/formTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/predictingFragment"
+        android:name="com.novia.sanitymate.view.form.PredictingFragment"
+        android:label="fragment_predicting"
+        tools:layout="@layout/fragment_predicting" >
+        <action
+            android:id="@+id/action_predictingFragment_to_listBookFragment"
+            app:destination="@id/listBookFragment" />
+        <argument
+            android:name="emotion"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/formTwoFragment"
+        android:name="com.novia.sanitymate.view.form.FormTwoFragment"
+        android:label="FormTwoFragment" >
+        <action
+            android:id="@+id/action_formTwoFragment_to_predictingFragment"
+            app:destination="@id/predictingFragment" />
+        <argument
+            android:name="emotion"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listBookFragment"
+        android:name="com.novia.sanitymate.view.ListBookFragment"
+        android:label="fragment_list_book"
+        tools:layout="@layout/fragment_list_book">
+        <argument
+            android:name="emotionForPost"
+            app:argType="string" />
+        <argument
+            android:name="listBook"
+            app:argType="com.novia.sanitymate.model.ItemBook[]" />
+        <action
+            android:id="@+id/action_listBookFragment_to_chooseFragment"
+            app:destination="@id/chooseFragment" />
+        <argument
+            android:name="recomendation"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
