@@ -19,6 +19,7 @@ SanityMate is a mobile application designed to promote mental wellness among use
 ## Technologies Used
 
 - **Backend**: Hapi server in Node.js
+  - Deployed on Google Cloud Run
 - **Frontend**: Kotlin, Android Studio
 - **Database**: Firebase (for backend services)
 - **Machine Learning**: TensorFlow, Scikit-learn (for ML models)
