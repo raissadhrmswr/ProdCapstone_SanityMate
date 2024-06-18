@@ -98,4 +98,4 @@ Here are some images to illustrate the prediction and recommendation results:
 
 ### Recommendation
 
-![Recommendation](img/recommendation.png)
+![Recommendation](img/recomendation.png)
