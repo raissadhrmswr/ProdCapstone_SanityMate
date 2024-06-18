@@ -1,6 +1,6 @@
 # Bangkit_Final_Capstone
 
-![Bangkit](Cloud Computing/img/bangkit-background.png)
+![Bangkit](Cloud_Computing/img/bangkit-background.png)
 
 ## Overview
 
@@ -9,6 +9,8 @@ This repository contains the Capstone Project for the Bangkit 2024 C241-PS001 co
 ### Project Name: SanityMate - Mental Wellness App
 
 SanityMate is a mobile application designed to promote mental wellness among users. The app aims to provide resources and tools that help users manage stress, improve mindfulness, and build healthier habits.
+
+More on Bangkit, https://grow.google/intl/id_id/bangkit/
 
 ### About Bangkit
 
