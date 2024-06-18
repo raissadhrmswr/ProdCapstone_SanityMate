@@ -87,3 +87,15 @@ gcloud run deploy sanitymate \
 - [moment-timezone](https://www.npmjs.com/package/moment-timezone): For handling timezones.
 - [@google-cloud/firestore](https://www.npmjs.com/package/@google-cloud/firestore): For interacting with Firebase services.
 - [nodemon](https://www.npmjs.com/package/nodemon): For automatic server restarts during development.
+
+## Testing
+
+Here are some images to illustrate the prediction and recommendation results:
+
+### Prediction
+
+![Prediction](img/Prediction.png)
+
+### Recommendation
+
+![Recommendation](img/recommendation.png)
