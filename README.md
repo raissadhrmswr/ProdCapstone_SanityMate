@@ -25,6 +25,12 @@ SanityMate is a mobile application designed to promote mental wellness among use
 - **Machine Learning**: TensorFlow, Scikit-learn (for ML models)
 - **API Integration**: RESTful API
 
+## Settings for Machine Learing
+```
+conda create --name main-ds python=3.9
+pip install numpy pandas matplotlib scikitlearn tensorflow
+```
+
 ## Features
 
 - Stress management tips and exercises
